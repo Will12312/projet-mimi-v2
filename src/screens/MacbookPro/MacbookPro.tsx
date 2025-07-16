@@ -81,11 +81,11 @@ export const MacbookPro = (): JSX.Element => {
         </article>
 
         {/* Footer - Contact section */}
-        <footer className=" md:mb-[1rem] w-full mt-16 md:mt-0 lg:mt-0">
+        <footer className=" md:mb-[2rem] w-full mt-16 md:mt-[2rem] lg:mt-[2rem]">
           {/* Mobile layout - Contact info positioned at bottom left (phones only) */}
           <div className="block md:hidden">
             <div className="[font-family:'Trirong',Helvetica] text-black text-[20px] tracking-[-0.8px] leading-[28px]">
-              <div className=" md:mb-[1rem] font-bold tracking-[-0.8px] mb-3" style={{ fontWeight: 700 }}>
+              <div className=" md:mb-[2rem] font-bold tracking-[-0.8px] mb-3" style={{ fontWeight: 700 }}>
                 FEEL FREE TO GET IN TOUCH
               </div>
               <div className="font-normal tracking-[-0.8px] leading-[28px]">
@@ -96,7 +96,7 @@ export const MacbookPro = (): JSX.Element => {
                     rel="noopener noreferrer"
                     className="hover:underline"
                   >
-                    (AT)SUGI.GRAPHICS
+                    SUGI.GRAPHICS
                   </a>
               </div>
             </div>
@@ -104,11 +104,11 @@ export const MacbookPro = (): JSX.Element => {
 
           {/* Desktop layout - Contact info without logo overlay (tablets and up) */}
           <div className="hidden md:block">
-            <div className="w-full max-w-[1620px] [font-family:'Trirong',Helvetica] text-black text-xl md:text-[20px] lg:text-[20px] tracking-[-1px] md:tracking-[-1.50px] lg:tracking-[-1.50px] leading-8 md:leading-9 lg:leading-10">
-              <span className="font-bold tracking-[-0.5px] md:tracking-[-0.45px] lg:tracking-[-0.45px] block mt-4" style={{ fontWeight: 700 }}>
+            <div className="w-full max-w-[1620px] [font-family:'Trirong',Helvetica] text-black text-xl md:text-[20px] lg:text-[20px] tracking-[-1px] md:tracking-[-1.50px] lg:tracking-[-1.50px] leading-8 md:leading-8 lg:leading-8">
+              <span className="font-bold tracking-[-0.5px] md:tracking-[-0.45px] lg:tracking-[-0.45px] block mt-4 mb-4" style={{ fontWeight: 700 }}>
                 FEEL FREE TO GET IN TOUCH
               </span>
-              <span className="font-normal tracking-[-0.5px] md:tracking-[-0.45px] lg:tracking-[-0.45px] leading-8 md:leading-9 lg:leading-10">
+              <span className="font-normal tracking-[-0.5px] md:tracking-[-0.45px] lg:tracking-[-0.45px] leading-8 md:leading-8 lg:leading-8">
                 → MIREI.SUGIMACHI(at)GMAIL.COM
                 <br />→ <a 
                   href="https://www.instagram.com/sugi.graphics/" 
