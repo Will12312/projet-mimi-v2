@@ -30,7 +30,7 @@ export const MacbookPro = (): JSX.Element => {
         </header>
 
         {/* Subtitle */}
-        <div className=" md:mb-[1rem] w-full max-w-[1620px] mt-6 md:mt-0 lg:mt-0 [font-family:'Trirong',Helvetica] font-normal text-black text-[20px] md:text-[15px] lg:text-[15px] tracking-[-0.8px] md:tracking-[-1.50px] lg:tracking-[-1.50px] leading-[24px] md:leading-[27px] lg:leading-[35px]">
+        <div className=" md:mb-[1rem] w-full max-w-[1620px] mt-6 md:mt-0 lg:mt-0 [font-family:'Trirong',Helvetica] font-normal text-black text-[20px] md:text-[15px] lg:text-[15px] tracking-[-0.5px] md:tracking-[-0.5px] lg:tracking-[-0.5px] leading-[24px] md:leading-[27px] lg:leading-[35px]">
           (BRUSSELS AND TOKYO IN HER HEART)
         </div>
 
@@ -68,7 +68,7 @@ export const MacbookPro = (): JSX.Element => {
             </span>
             
             <div className="">
-            <div className="lg:mt-6">
+            <div className="md:mt-6 lg:mt-6">
               <span className="tracking-[-1.5px] lg:tracking-[-1.06px]">
                 SIGNS, SPACES, PRODUCTS, FOOD, SERVICES, LANGUAGES,<br />
                 FASHION,... IT&apos;S ALL{" "}
@@ -81,7 +81,7 @@ export const MacbookPro = (): JSX.Element => {
         </article>
 
         {/* Footer - Contact section */}
-        <footer className=" md:mb-[2rem] w-full mt-16 md:mt-[2rem] lg:mt-[2rem]">
+        <footer className=" md:mb-[2rem] w-full mt-16 md:mt-[2rem] lg:mt-[6rem]">
           {/* Mobile layout - Contact info positioned at bottom left (phones only) */}
           <div className="block md:hidden">
             <div className="[font-family:'Trirong',Helvetica] text-black text-[20px] tracking-[-0.8px] leading-[28px]">
@@ -105,7 +105,7 @@ export const MacbookPro = (): JSX.Element => {
           {/* Desktop layout - Contact info without logo overlay (tablets and up) */}
           <div className="hidden md:block">
             <div className="w-full max-w-[1620px] [font-family:'Trirong',Helvetica] text-black text-xl md:text-[20px] lg:text-[20px] tracking-[-1px] md:tracking-[-1.50px] lg:tracking-[-1.50px] leading-8 md:leading-8 lg:leading-8">
-              <span className="font-bold tracking-[-0.5px] md:tracking-[-0.45px] lg:tracking-[-0.45px] block mt-4 mb-4" style={{ fontWeight: 700 }}>
+              <span className="font-bold tracking-[-0.5px] md:tracking-[-0.45px] lg:tracking-[-0.45px] block mb-2" style={{ fontWeight: 700 }}>
                 FEEL FREE TO GET IN TOUCH
               </span>
               <span className="font-normal tracking-[-0.5px] md:tracking-[-0.45px] lg:tracking-[-0.45px] leading-8 md:leading-8 lg:leading-8">
