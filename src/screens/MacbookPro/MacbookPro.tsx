@@ -18,20 +18,20 @@ export const MacbookPro = (): JSX.Element => {
           {/* Mobile version - no forced breaks */}
           <span className="block md:hidden tracking-[-1.8px] leading-[50px]">
             MIREI SUGIMACHI IS A GRAPHIC DESIGNER BASED IN{" "}
-            <span className="italic">PARIS</span>.
+            <span className="italic">TOKYO AND PARIS</span>.
           </span>
           
           {/* Desktop version - with accurate breaks */}
           <span className="hidden md:block tracking-[-3px] lg:tracking-[-4.05px] leading-tight lg:leading-[75px]">
             MIREI SUGIMACHI IS<br />
             A GRAPHIC DESIGNER<br />
-            BASED IN <span className="italic">PARIS</span>.
+            BASED IN <span className="italic">TOKYO AND PARIS</span>.
           </span>
         </header>
 
         {/* Subtitle */}
         <div className=" md:mb-[1rem] w-full max-w-[1620px] mt-6 md:mt-0 lg:mt-0 [font-family:'Trirong',Helvetica] font-normal text-black text-[20px] md:text-[15px] lg:text-[15px] tracking-[-0.5px] md:tracking-[-0.5px] lg:tracking-[-0.5px] leading-[24px] md:leading-[27px] lg:leading-[35px]">
-          (BRUSSELS AND TOKYO IN HER HEART)
+
         </div>
 
         {/* Main content paragraph */}
